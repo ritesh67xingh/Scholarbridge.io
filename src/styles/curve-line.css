@@ -1,0 +1,31 @@
+/* Ensure images are crisp on all devices */
+.crisp-image {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive text container for better curve positioning */
+.responsive-text-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Ensure curve lines are visible on mobile */
+@media (max-width: 768px) {
+  .crisp-image {
+    min-width: 60px;
+    min-height: 8px;
+  }
+}
+
+/* Better visibility for small screens */
+@media (max-width: 480px) {
+  .crisp-image {
+    min-width: 50px;
+    min-height: 6px;
+  }
+}
