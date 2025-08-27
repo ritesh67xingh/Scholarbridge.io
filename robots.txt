@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.scholarbridgeacademy.com
+
+# Sitemaps
+Sitemap: https://www.scholarbridgeacademy.com/sitemap.xml
